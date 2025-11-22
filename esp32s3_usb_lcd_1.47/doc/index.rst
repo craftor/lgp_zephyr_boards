@@ -1,17 +1,25 @@
-.. zephyr:board:: esp32s3_devkitc
+.. zephyr:board:: esp32s3_luatos_core
 
 Overview
 ********
 
-The ESP32-S3-DevKitC is an entry-level development board equipped with either ESP32-S3-WROOM-1
-or ESP32-S3-WROOM-1U, a module named for its small size. This board integrates complete Wi-Fi
-and Bluetooth Low Energy functions. For more information, check `ESP32-S3-DevKitC`_.
+The ESP32S3-Luatos-Core development board is a compact board based on Espressif ESP32-S3.
+The board comes equipped with a 2.4GHz antenna and supports both Wi-Fi and Bluetooth functionalities.
+For more information, check `ESP32S3-Luatos-Core`_ (chinese)
+
+.. image:: img/esp32s3_luatos_core.jpg
+     :align: center
+     :alt: esp32s3_luatos_core
 
 Hardware
 ********
 
 .. include:: ../../../espressif/common/soc-esp32s3-features.rst
    :start-after: espressif-soc-esp32s3-features
+
+.. image:: img/esp32s3_luatos_core_pinout.jpg
+     :align: center
+     :alt: esp32s3_luatos_core_pinout
 
 Supported Features
 ==================
@@ -46,4 +54,4 @@ References
 
 .. target-notes::
 
-.. _`ESP32-S3-DevKitC`: https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html
+.. _`ESP32S3-Luatos-Core`: https://wiki.luatos.com/chips/esp32s3/board.html

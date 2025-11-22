@@ -1,5 +1,5 @@
-identifier: esp32s3_iot/esp32s3/procpu
-name: ESP32-S3 IOT PROCPU
+identifier: esp32s3_luatos_core/esp32s3/procpu
+name: ESP32-S3 LuatOS Core PROCPU
 type: mcu
 arch: xtensa
 toolchain:
@@ -8,7 +8,6 @@ supported:
   - gpio
   - uart
   - i2c
-  - i2s
   - spi
   - can
   - counter
@@ -16,7 +15,4 @@ supported:
   - entropy
   - pwm
   - dma
-  - input
-  - crypto
-  - retained_mem
-vendor: espressif
+vendor: luatos

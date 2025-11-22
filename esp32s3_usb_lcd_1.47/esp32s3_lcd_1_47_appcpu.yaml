@@ -1,5 +1,5 @@
-identifier: esp32s3_iot/esp32s3/appcpu
-name: ESP32-S3 IoT APPCPU
+identifier: esp32s3_lcd_1_47/esp32s3/appcpu
+name: ESP32-S3 LCD 1.47 APPCPU
 type: mcu
 arch: xtensa
 toolchain:
@@ -24,4 +24,4 @@ testing:
     - cmsis_rtos
     - jwt
     - zdsp
-vendor: espressif
+vendor: luatos

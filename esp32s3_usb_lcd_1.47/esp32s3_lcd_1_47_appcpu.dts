@@ -1,16 +1,15 @@
 /*
- * Copyright (c) 2024 Espressif Systems (Shanghai) Co., Ltd.
+ * Copyright (c) 2023 Espressif Systems (Shanghai) Co., Ltd.
  *
  * SPDX-License-Identifier: Apache-2.0
  */
 /dts-v1/;
 
-#include <espressif/esp32s3/esp32s3_wroom_n8.dtsi>
+#include <espressif/esp32s3/esp32s3_mini_n8.dtsi>
 #include <espressif/partitions_0x0_amp.dtsi>
-#include "esp32s3_iot-pinctrl.dtsi"
 
 / {
-	model = "Espressif ESP32S3-IoT APPCPU";
+	model = "ESP32S3 Luatos Core APPCPU";
 	compatible = "espressif,esp32s3";
 
 	chosen {
