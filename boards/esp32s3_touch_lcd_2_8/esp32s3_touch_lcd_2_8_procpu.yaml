@@ -1,0 +1,22 @@
+identifier: esp32s3_touch_lcd_2_8/esp32s3/procpu
+name: ESP32-S3 Touch LCD 2.8 PROCPU
+type: mcu
+arch: xtensa
+toolchain:
+  - zephyr
+supported:
+  - gpio
+  - uart
+  - i2c
+  - i2s
+  - spi
+  - can
+  - counter
+  - watchdog
+  - entropy
+  - pwm
+  - dma
+  - input
+  - crypto
+  - retained_mem
+vendor: espressif
