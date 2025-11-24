@@ -8,7 +8,7 @@
 #include "esp32s3_lcd_1_47.dtsi"
 
 / {
-	model = "ESP32S3 Luatos Core USB PROCPU";
+	model = "ESP32S3 LCD 147 USB PROCPU";
 	compatible = "espressif,esp32s3";
 
 	aliases {

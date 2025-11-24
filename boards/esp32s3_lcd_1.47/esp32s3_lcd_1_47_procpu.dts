@@ -8,16 +8,16 @@
 #include "esp32s3_lcd_1_47.dtsi"
 
 / {
-	model = "ESP32S3 Luatos Core PROCPU";
+	model = "ESP32S3 LCD 1.47 PROCPU";
 	compatible = "espressif,esp32s3";
 
 	aliases {
 		led0 = &led0;
-		led1 = &led1;
+		// led1 = &led1;
 		i2c-0 = &i2c0;
 		watchdog0 = &wdt0;
 		uart-0 = &uart0;
-		sw0 = &button0;
+		// sw0 = &button0;
 	};
 
 	chosen {

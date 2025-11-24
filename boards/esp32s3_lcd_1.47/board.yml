@@ -1,6 +1,6 @@
 board:
-  name: esp32s3_luatos_core
-  full_name: ESP32S3-Luatos-Core
+  name: esp32s3_lcd_1_47
+  full_name: ESP32S3-LCD-1.47
   vendor: luatos
   socs:
   - name: esp32s3
